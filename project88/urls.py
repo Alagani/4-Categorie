@@ -22,8 +22,8 @@ from django.conf import settings
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
 urlpatterns = [
-    path("",demo),
-    path("register/",register_page),
+    path("demo",demo),
+    path("",register_page),
     path("login/",login_page),
     path("cricket/",cricket_page),
     path("gold/",gold_page),
